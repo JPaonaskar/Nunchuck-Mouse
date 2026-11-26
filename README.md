@@ -14,6 +14,9 @@ The electronics needed to be neatly housed in an ergonomic housing that could fi
 ![Drawing package](figures/drawing.jpg)
 
 # Electronics
+With the limited space and many built in features on the microcontroller the components and wiring remained very simple. Two push buttons for left and right click, the joystick for motion & middle click, and an option to at a potentiometer for a tuning feature.
+
+![Schematic](figures/schematic.png)
 
 # Code
 Additionally code is included to test PID rates before pushing software to the device. The PIDs smooth out the reaction to input to allow for small motions by flicking the joystick but increased speeds with sustained input. The figure below is the current PID convergence to a range of inputs (dashed lines). The rates are currently tuned to hit 50% of the input in ~0.3s and 80% in ~1s.
