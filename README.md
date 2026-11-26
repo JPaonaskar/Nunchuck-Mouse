@@ -1,2 +1,20 @@
 # Nunchuck-Mouse
-A mouse alternative to make computer usage more accessible
+A mouse alternative to make computer usage more accessible.
+
+# Overview
+**Problem:** The world continues to become more technologically reliant. Computers and much of computer software relies on the user to be able to use a mouse and keyboard limiting accessibility. Arm injuries such a fractures and dislocations are not uncommon. Notably through sports and play these types of injury are not uncommon. The NHA found that 1,130 upper extremity injuries per 100,000 persons per year were treated in the ER in 2009 [[1]](https://pmc.ncbi.nlm.nih.gov/articles/PMC3280373/). This poses a challenge for students following along in classes and employees trying to return to office work.
+
+**Mission Statement:** To improve computer accessibility for individuals with restricted arm movement by developing a computer mouse alternative.
+
+# Design
+
+# Electronics
+
+# Code
+
+# CAD
+The electronics needed to be neatly housed in an ergonomic housing that could fit electronics in a way that supports easy installation and repair.
+
+![Drawing package](images/drawing.jpg)
+
+# Results
