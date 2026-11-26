@@ -20,4 +20,6 @@ Additionally code is included to test PID rates before pushing software to the d
 
 ![Tuned PIDs](figures/tuned_PID.png)
 
+# Bill of Materials (BOM)
+
 # Results
