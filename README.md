@@ -8,13 +8,16 @@ A mouse alternative to make computer usage more accessible.
 
 # Design
 
+# CAD
+The electronics needed to be neatly housed in an ergonomic housing that could fit electronics in a way that supports easy installation and repair and can be manufactured with ease. The housing could be split into halves with alignment pins with open space inside for electronics. The design originates from inspiration from a [Wii Nunchuck](https://www.nintendo.com/en-gb/Wii/Accessories/Accessories-Wii-Nintendo-UK-626430.html). The housing places the joystick by the thumb position with left and right click buttons for the pointer finger.
+
+![Drawing package](figures/drawing.jpg)
+
 # Electronics
 
 # Code
+Additionally code is included to test PID rates before pushing software to the device. The PIDs smooth out the reaction to input to allow for small motions by flicking the joystick but increased speeds with sustained input. The figure below is the current PID convergence to a range of inputs (dashed lines). The rates are currently tuned to hit 50% of the input in ~0.3s and 80% in ~1s.
 
-# CAD
-The electronics needed to be neatly housed in an ergonomic housing that could fit electronics in a way that supports easy installation and repair.
-
-![Drawing package](images/drawing.jpg)
+![Tuned PIDs](figures/tuned_PID.png)
 
 # Results
